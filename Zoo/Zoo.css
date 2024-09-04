@@ -1,16 +1,13 @@
-/* Reset básico */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
  }
- 
- /* Estilos globais */
+
  body {
  background-image: url(imagem/capa.jpg);
  }
 
- /* Cabeçalho */
  header {
   
   color: #fff;
@@ -37,7 +34,7 @@
  }
  
  nav a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -71,7 +68,4 @@
   color: #4800ff;
  }
  
- .logo{
-     margin-bottom: 10px;
-     padding-bottom: 10px;
- }
+ 
