@@ -1,63 +1,77 @@
+/* Reset básico */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-}
+ }
+ 
+ /* Estilos globais */
+ body {
+ background-image: url(imagem/capa.jpg);
+ }
 
-body {
-  background-image: url(imagem/capa.jpg);
-}
-
-header {
+ /* Cabeçalho */
+ header {
+  
   color: #fff;
   text-align: center;
-}
-
-header h1 {
+ }
+ 
+ header h1 {
   margin-bottom: 10px;
-}
-
-h2 {
+ }
+ h2{
   text-align: left;
   margin-top: 200px;
   font-size: 100px;
 }
-
-nav ul {
+ 
+ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-}
-
-nav li {
+ }
+ 
+ nav li {
   margin: 0 9px;
-}
-
-nav a {
+ }
+ 
+ nav a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
-}
-
-nav a:hover {
+ }
+ 
+ nav a:hover {
   color: #4800ff;
-}
+ }
+ 
+ main{
+  margin-right: 900px;
+  color: #fff;
+ }
+ 
 
-footer {
+ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
   margin-top: 320px;
-}
-
-footer .social-media a {
+ }
+ 
+ footer .social-media a {
   color: #fff;
   margin: 0 10px;
   text-decoration: none;
   font-size: 20px;
-}
-
-footer .social-media a:hover {
+ }
+ 
+ footer .social-media a:hover {
   color: #4800ff;
-}
+ }
+ 
+ .logo{
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+ }
