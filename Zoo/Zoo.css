@@ -1,16 +1,15 @@
-/* Reset básico */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
  }
  
- /* Estilos globais */
+ 
  body {
  background-image: url(imagem/capa.jpg);
  }
 
- /* Cabeçalho */
+
  header {
   
   color: #fff;
@@ -48,8 +47,7 @@
  }
  
 
- 
-  /* Rodapé */
+
  footer {
   color: #fff;
   text-align: center;
